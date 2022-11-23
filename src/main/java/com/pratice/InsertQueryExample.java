@@ -14,6 +14,7 @@ public class InsertQueryExample {
 		//1. establish the connection
 		Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres",
 				"postgres", "1234");
+		//
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter name");
